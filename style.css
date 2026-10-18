@@ -1,0 +1,25 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 15px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #2d323d; /* El color del fondo de la página web */
+    color: #e2e2e2; /* El color del texto*/ 
+}
+h1 {
+    color: #4e5aff; /* El color de la cabecera */
+    font-size: 25px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+
+h3 {
+    color: #426592; /* El color de la cabecera */
+    font-size: 35px; /* El tamaño de la fuente de la cabecera */
+    font-family: sans-serif; /* La familia tipográfica utilizada en la cabecera */
+}
+
+
+img {
+    max-width: 50%; /* La imagen se ajusta al ancho del contenedor */
+    height: auto; /* La altura de la imagen se ajusta automáticamente */
+    display: block; /* La imagen se muestra como un bloque */
+    margin: 20px auto; /* Se centra la imagen horizontalmente y se agrega un margen superior e inferior */
+}
