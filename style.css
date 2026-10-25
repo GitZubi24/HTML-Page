@@ -6,16 +6,28 @@ body {
 }
 h1 {
     color: #4e5aff; /* El color de la cabecera */
+    transition: all 0.3s ease;
     font-size: 25px; /* El tamaño de la fuente de la cabecera */
     font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
 }
 
-h3 {
-    color: #426592; /* El color de la cabecera */
+h2 { 
     font-size: 35px; /* El tamaño de la fuente de la cabecera */
     font-family: sans-serif; /* La familia tipográfica utilizada en la cabecera */
+    animation: color-change 3s infinite;
 }
 
+h1:hover {
+    color: #3bd1ff;
+}
+
+@keyframes color-change {
+  0%   { color: #426592; }
+  25%  { color: #924242; }
+  50% { color: #499242; }
+  75%  { color: #924242; }
+  100%   { color: #426592; }
+}
 
 img {
     max-width: 50%; /* La imagen se ajusta al ancho del contenedor */
